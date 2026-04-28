@@ -55,5 +55,21 @@ body {
   font-size: var(--body--m-plus);
   line-height: var(--base-unit);
 }
-/* .text-body-l{}
-.text-body-l{} */
+/* 링크 버튼 */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0 20px;
+  height: 39px;
+  background: var(--super--light--gray);
+  border-radius: 3px;
+  color: var(--medium--gray);
+  font-size: calc(var(--base-font) * 0.875);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background: var(--primary);
+  color: var(--secondary);
+}
