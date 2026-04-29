@@ -57,6 +57,11 @@ body {
   font-size: var(--body--m-plus);
   line-height: var(--base-unit);
 }
+.text-nav {
+  font-size: var(--nav--item);
+  font-weight: bold;
+  text-transform: uppercase;
+}
 /* 링크 버튼 */
 .btn {
   display: inline-flex;
@@ -70,6 +75,9 @@ body {
   font-size: calc(var(--base-font) * 0.875);
   font-weight: bold;
   text-transform: uppercase;
+}
+.btn .material-icons {
+  font-size: 14px;
 }
 .btn-primary {
   background: var(--primary);
