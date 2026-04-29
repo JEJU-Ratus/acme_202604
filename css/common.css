@@ -40,6 +40,9 @@ body {
 .text-heading-xl {
   font-size: var(--heading--x-l);
   line-height: calc(var(--base-unit) * 3);
+  color: var(--hero--title);
+  text-transform: uppercase;
+  letter-spacing: 2%;
 }
 .text-heading-s {
   font-size: var(--heading--s);
@@ -48,6 +51,7 @@ body {
 .text-body-l {
   font-size: var(--body--l);
   line-height: calc(var(--base-unit) * 2);
+  font-weight: 300;
 }
 .text-body-m {
   font-size: var(--body--m);
@@ -82,6 +86,10 @@ body {
 .btn-primary {
   background: var(--primary);
   color: var(--secondary);
+}
+.btn.big {
+  height: calc(var(--base-unit) * 2);
+  padding: 0 30px;
 }
 /* 폼 요소 */
 .hero {
@@ -131,4 +139,23 @@ form button {
 }
 .inner-top-pd {
   padding-top: calc(var(--base-unit) * 3);
+}
+/* header */
+body > header {
+  background: var(--white);
+  padding: var(--base-unit) 0;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+.logo span {
+  position: absolute;
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+header nav ul {
+  gap: 10px;
+}
+header nav ul li:first-child {
+  margin-right: 40px;
 }
