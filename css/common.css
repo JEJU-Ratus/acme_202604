@@ -40,6 +40,11 @@ body {
     var(--base-font)/var(--base-unit) "Open Sans",
     sans-serif;
 }
+hr {
+  border: none;
+  height: 1px;
+  background: var(--super--light--gray);
+}
 /* 폰트의 위계 */
 .text-heading-xl {
   font-size: var(--heading--x-l);
