@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,14 +15,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
+
   <body>
     <header>
       <div class="container d-flex justify-content-between align-items-center">
         <h1 class="logo">
           <a href="index.html">
-            <img src="images/Logo.png" alt="acme Logo" />
-            <span>ACMC</span>
+            <img src="images/logo.png" alt="acme logo" />
+            <span class="hidden">ACME</span>
           </a>
         </h1>
         <nav>
@@ -33,12 +35,12 @@
               <a href="" class="text-nav">about</a>
             </li>
             <li>
-              <a href="#" class="btn btn-secondary">
-                <span class="material-icons">lock</span>sign in
-              </a>
+              <a href="#" class="btn btn-secondary"
+                ><span class="material-icons">lock</span>sign in</a
+              >
             </li>
             <li>
-              <a href="#" class="btn btn-primary"> sign up for free </a>
+              <a href="#" class="btn btn-primary">sign up for free</a>
             </li>
           </ul>
         </nav>
@@ -53,7 +55,44 @@
           <img src="images/hero_image.png" alt="" />
         </div>
       </section>
-      <section class="Features container inner-pd"></section>
+      <section class="features container inner-pd">
+        <h2 class="hidden">Features</h2>
+        <ul class="d-flex justify-content-between">
+          <li>
+            <div class="icon">
+              <span class="material-icons">person</span>
+            </div>
+            <h3 class="text-heading-s">This is a feature title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+              labore minima totam incidunt exercitationem officia corrupti
+              debitis rem porro.
+            </p>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="material-icons">list</span>
+            </div>
+            <h3 class="text-heading-s">This is a feature title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+              labore minima totam incidunt exercitationem officia corrupti
+              debitis rem porro.
+            </p>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="material-icons">star</span>
+            </div>
+            <h3 class="text-heading-s">This is a feature title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+              labore minima totam incidunt exercitationem officia corrupti
+              debitis rem porro.
+            </p>
+          </li>
+        </ul>
+      </section>
       <hr class="container" />
       <section class="testimonial container inner-pd"></section>
       <section class="cta inner-pd"></section>
