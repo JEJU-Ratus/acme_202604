@@ -159,6 +159,10 @@ form button {
   height: 1px;
   overflow: hidden;
 }
+.text-link {
+  text-decoration: underline;
+  color: var(--primary);
+}
 /* header */
 body > header {
   background: var(--white);
