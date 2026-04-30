@@ -163,6 +163,9 @@ form button {
   text-decoration: underline;
   color: var(--primary);
 }
+section .header {
+  margin-bottom: calc(var(--base-unit) * 2);
+}
 /* header */
 body > header {
   background: var(--white);
@@ -192,6 +195,10 @@ header nav ul li:first-child {
   flex-direction: column;
   align-items: center;
   gap: var(--base-unit);
+}
+.slidecontainer li > p {
+  width: 700px;
+  text-align: center;
 }
 .slidewrapper button {
   width: 45px;
